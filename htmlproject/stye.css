@@ -1,0 +1,39 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #333;;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    padding:15;
+   font-weight: bold;
+}
+nav{
+    background-color: black;
+    font-size:18;
+    padding: 10;
+    text-align: center;
+    
+    
+    
+}
+.abouts
+{
+ color: aliceblue;
+ padding: 25;
+ text-decoration: none;
+}
+ 
+
+.contacts
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+photo
+{
+    
+}
