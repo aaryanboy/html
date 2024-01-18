@@ -2,13 +2,16 @@
     --primary-color: #333;
     --nav-background: #555;
     --footer-background: #333;
+    --body-background-color: #fff;
+    --body-textcolor: #000;
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--body-background-color);
+    
 }
 
 header {
@@ -29,6 +32,31 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+}
+
+.imagebeside{
+    display: flex;
+    align-items: auto;
+    
+    
+    
+}
+
+
+
+img {
+    padding-top: 10;
+    max-width: 5cm;
+    height: 250px;
+   
+    margin: 5px; 
+    border: 5px solid #333;
+}
+
+.text{
+    color: var(--body-textcolor);
+    word-wrap: break-word;
+    text-align: justify;
 }
 
 section {
